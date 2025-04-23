@@ -1,0 +1,116 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 4,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 4,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1745418833739,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "adds 1 + 2 to equal 3",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "adds 1 + 2 to equal 3"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "multiply 1 * 2 muliple ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "multiply 1 * 2 muliple "
+        }
+      ],
+      "endTime": 1745418834540,
+      "message": "",
+      "name": "E:\\nodes_project\\testing_with_node\\UnitTesting\\unitTesting.test.js",
+      "startTime": 1745418833866,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "adds 1 + 2 to equal 3",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "adds 1 + 2 to equal 3"
+        }
+      ],
+      "endTime": 1745418834695,
+      "message": "",
+      "name": "E:\\nodes_project\\testing_with_node\\UnitTesting\\unit1.test.js",
+      "startTime": 1745418834560,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "multiply 1 * 2 muliple ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "multiply 1 * 2 muliple "
+        }
+      ],
+      "endTime": 1745418834849,
+      "message": "",
+      "name": "E:\\nodes_project\\testing_with_node\\UnitTesting\\unit2.test.js",
+      "startTime": 1745418834730,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

@@ -1,0 +1,55 @@
+1. Notes -> 
+    npm install --save-dev jest 
+
+    ---------- Types of Testing --------------
+
+    1. Unit Testing -> 
+        Test small, isolated pieces of logic.
+
+        Example: testing a utility function.
+
+    2. Integration Testing -> 
+        Test how different parts of your app work together.
+        
+        Example: hitting your Express API endpoints and checking responses.
+
+    3. End-to-End Testing (E2E) -> 
+        Simulate real user interaction in the browser.
+
+        Example: open your app in Chrome and click through it.
+
+2. Notes -> 
+    ---------- UNIT TESTING --------------
+
+    1. Unit testing is the process of testing individual units (functions, methods, or classes) in isolation to make sure they work as expected.
+
+        a. You test only one piece of logic at a time.
+        b. You do not test databases, servers, or other systems in unit tests.
+
+    ---------- RUN COMMANDS --------------
+    1. Run all test.js files by this command -> 
+        npm test
+    2. Run selected test.js file by this settings ->
+        a. "test:unit": "jest unit1.test.js unit2.test.js" --->   (package.json)
+
+        b. Run this command -> ' npm run test:unit ' 
+
+    ----------- REPORT GENERATE ----------
+    1. Generate report as json file ->
+        a. "_test2":"jest --json --outputFile=jest-report.json" ---> (package.json)
+    2. Generate report as XML file -> 
+        a. npm install --save-dev jest-junit
+
+        b. "test":"jest --reporters=default --reporters=jest-junit"  --->  (package.json)
+
+        c. "jest-junit": {
+                "outputDirectory": "./reports",
+                "outputName": "junit.xml"
+            } ---> (package.json)
+    3. Generate report as HTML file ->
+        a. "test": "jest --reporters=default --reporters=./node_modules/jest-html-reporter" ---> (package.json)
+
+        b. "jest-html-reporter": {
+                "outputPath": "./reports/test-report.html",
+                "pageTitle": "My Test Report"
+            },

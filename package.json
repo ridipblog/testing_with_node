@@ -1,0 +1,39 @@
+{
+  "name": "testing_with_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^4.1.0",
+    "jest-junit": "^16.0.0"
+  },
+  "scripts": {
+    "_test": "jest",
+    "_comment1": " 'npm run test:unit'  = for all unit test",
+    "test:unit": "jest unit1.test.js unit2.test.js",
+    "_comment2": " 'npm run test:unit'  = for unit1.test.js and unit2.test.js",
+    "_test2": "jest --json --outputFile=jest-report.json",
+    "_comment3": "To generate report as json file ",
+    "_test3": "jest --reporters=default --reporters=jest-junit",
+    "_comment4": "To Generate XML report ",
+    "test": "jest --reporters=default --reporters=./node_modules/jest-html-reporter",
+    "_comment5": "To Generate HTML report ",
+    "test:registration": "jest registration.test.js"
+  },
+  "_comment1": "For generate XML report via package jest-junit",
+  "jest-junit": {
+    "outputDirectory": "./reports",
+    "outputName": "junit.xml"
+  },
+  "_comment2": "For generate HTML report via package jest-html-reporter",
+  "jest-html-reporter": {
+    "outputPath": "./reports/test-report.html",
+    "pageTitle": "My Test Report"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  }
+}
